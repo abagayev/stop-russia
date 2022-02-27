@@ -36,3 +36,17 @@ docker run -ti --rm abagayev/stop-russia
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.  
+
+## Docker Azure
+
+0. `cd automation/azure-terraform`
+1. Почитай `variables.tf`
+1. Го `terraform init`
+2. Го `az login` и сделай дело
+3. Го `terraform plan` и глянь
+4. Го `terraform apply` и вперед
+5. ???
+
+Крутим-вертим настройки в тераформе сколько хочем образцов контейнера ну и если кошелек позволяет.
+
+Внимание! Собрано на коленке с паяльником типа "кипятильник". Автор не несет ответственности.
