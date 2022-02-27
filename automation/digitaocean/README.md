@@ -13,6 +13,11 @@ https://docs.digitalocean.com/reference/doctl/how-to/install/
 ./init.sh
 ```
 
+Скрипт запускає інстанс, на якому запускається докер імедж через команду screen для ручного моніторингу скриптів.
+
+Більше про screen:  
+https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
+
 ### Обмеження
 
 Не забудьте видалити утилізовані інстанси - скрипт не видаляє їх.

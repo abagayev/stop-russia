@@ -1,6 +1,6 @@
  # Stop russian aggression
 
-Be here to stop Russian propaganda.
+Be here to stop russian propaganda.
 
 ### Як використовувати
 
