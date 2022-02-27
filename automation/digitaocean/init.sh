@@ -7,7 +7,11 @@ REGION=$(doctl compute region list --no-header | grep true | awk '{print $1}' | 
 KEYS=$(doctl compute ssh-key list --format=ID --no-header | tr '\n' ',')
 
 # generate random hash for droplet name
-HASH=$(date | md5)
+if [[ $OSTYPE == "linux-gnu"* ]]; then
+  HASH=$(date | md5sum | awk '{print $1}')
+else
+  HASH=$(date | md5)
+  fi
 
 doctl compute droplet create \
   --image ubuntu-20-04-x64 \
