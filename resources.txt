@@ -109,3 +109,4 @@ https://www.tvrmogilev.by/
 https://minsknews.by/
 https://zarya.by/
 https://grodnonews.by/
+https://api.sberbank.ru/
