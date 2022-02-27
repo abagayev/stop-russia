@@ -1,12 +1,12 @@
  # Stop russian aggression
 
-Be here to stop russian propaganda.
+If you are here, you probably want to stop the russian aggression against to Ukraine and to the world.
 
 ## English Version
 
-### Як використовувати
+### How to
 
-To start with you should install Docker:  
+To start with, you must install Docker:  
 https://docs.docker.com/get-docker/
 
 After this run this command in your terminal:
@@ -17,24 +17,23 @@ docker run -ti --rm abagayev/stop-russia
 
 ### Launch in the cloud
 
-The best way of bombing their websites is from cloud services like DigitalOcean, it gives the possibility of scaling to big number of servers and IP addresses in different countries.
+The best way of bombing their websites is from cloud services like DigitalOcean, it gives the possibility of scaling to a large number of servers and IP addresses in different countries.
 
-To automate the running in cloud check the folder `automation`, at the moment we support the following providers:
+To automate running it in cloud, check the folder `automation`, at the moment we support the following providers:
 - digital ocean
 - microsoft azure
 
 ### Limitations
 
-Attention! Only use this service where you cannot damage your internet connection. Use VPN, invite those who are outside of the Ukraine territory.
-DON'T USE WHILE IN SHELTERS! you can be damaging those who are trying to talk to their families or follow the news.
-DON'T USE IN PUBLIC NETWORKS, for example in the offices, you can damage your local provider.
-НЕ ВИКОРИСТОВУЙТЕ В ПУБЛІЧНИХ МЕРЕЖАХ - наприклад в офісах, ви можете задати школи місцевому провайдеру
+Attention! Only use this service where you cannot damage your internet connection. Use a VPN, invite those who are outside of the Ukrainian territory.
+DON'T USE WHILE IN SHELTERS! You can be damaging those who are trying to talk to their families or follow the news.
+DON'T USE IN PUBLIC NETWORKS, for example in offices, you can damage your local provider.
 
 ### How it works
 
-The image uses `bombardier` to create the maximum load on the dangerouse websites for Ukraine - russian propaganda and authorities close to the occupation power. This is not a perfect tool, but together we will be able to turn their network down if we do it from the different parts of the world.
+The image uses `bombardier` to create the maximum load on dangerous websites for Ukraine - russian propaganda and authorities close to the occupation power. This is not a perfect tool, but together we will be able to turn their network down if we do it from the different parts of the world.
 
-The list of the websites is in the file `resources.txt`. It can be add more websites to this file in your pull requests or create a copy of image at your machines.
+The list of the websites is in the file `resources.txt`. More websites can be added to this file in your pull requests or create a copy of the image in your machines.
 
 ### Let's do it together!
 
