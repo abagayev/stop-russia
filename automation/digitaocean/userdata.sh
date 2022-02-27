@@ -3,4 +3,10 @@
 apt -y update
 apt -y install docker.io
 
-screen -d -m docker run -ti --rm abagayev/stop-russia
+NUMPROC=10
+
+while [ 1 -le $NUMPROC ]
+do
+  screen -d -m docker run -ti --rm abagayev/stop-russia
+  NUMPROC=$(( $NUMPROC - 1 ))
+done
