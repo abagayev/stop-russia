@@ -3,10 +3,10 @@
 apt -y update
 apt -y install docker.io
 
+fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile 
+
 NUMPROC=10
 
-while [ 1 -le $NUMPROC ]
-do
+for proc in $(seq 1 $NUMPROC); do
   screen -d -m docker run -ti --rm abagayev/stop-russia
-  NUMPROC=$(( $NUMPROC - 1 ))
 done
