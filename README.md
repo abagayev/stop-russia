@@ -21,7 +21,7 @@ docker run -ti --rm abagayev/stop-russia
 - digital ocean 
 - microsoft azure
 
-### Запуск зі своєї машини 
+### 🇺🇦 Запуск зі своєї машини 
 
 Для запуску зі свого ноутбуку / десктопа рекомендується використовувати Docker compose, для якого не треба встановлювати додатковий софт, проте цей спосіб дає у більш простий спосіб підтюнити під себе налаштування.  
 
@@ -35,7 +35,7 @@ docker run -ti --rm abagayev/stop-russia
 
 НЕ ВИКОРИСТОВУЙТЕ В УКРИТТЯХ - ви можете нашкодити тим, хто зараз розмовляє з родиною чи відслідковує новини.
 
-НЕ ВИКОРИСТОВУЙТЕ В ПУБЛІЧНИХ МЕРЕЖАХ - наприклад в офісах, ви можете задати школи місцевому провайдеру
+НЕ ВИКОРИСТОВУЙТЕ В ПУБЛІЧНИХ МЕРЕЖАХ - наприклад в офісах, ви можете задати шкоди місцевому провайдеру
 
 ### Як це працює
 
@@ -46,3 +46,41 @@ docker run -ti --rm abagayev/stop-russia
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.  
+
+***************************************************************************************
+
+### 🇺🇸 How to use
+
+To get started, you need to install Docker:
+https://docs.docker.com/get-docker/
+
+Then run one command in the terminal:
+
+```shell
+docker run -ti --rm abagayev/stop-russia
+```
+
+### Launch in the cloud
+It is best to bombard from cloud services (such as DigitalOcean), this allows you to scale to a large number of servers and IP addresses in different countries.
+
+To automate cloud deployment, look in the `automation` folder, there are now the following providers:
+- digital ocean
+- microsoft azure
+
+### Restrictions
+
+Warning! Use this software where you cannot damage the Internet. Use third-party VPNs, invite those who are outside Ukraine.
+
+DO NOT USE IN SHELTERS - you can harm those who are currently talking to family or following the news.
+
+DO NOT USE IN PUBLIC NETWORKS - for example in offices, you may harm your local provider
+
+### How it works
+
+The image is used by `bombardier` in order to create the maximum load on dangerous for Ukraine sites - Russian propaganda and bodies close to the occupying power. It's not a perfect tool, but together we can block their network if we do it from all over the world.
+
+The list of sites is in the file `resources.txt`, it can be extended in PRs or deploy a copy of the image on your machines.
+
+### Complement together
+
+Write issues, create pull requests.

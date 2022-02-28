@@ -3,7 +3,7 @@
 apt -y update
 apt -y install docker.io
 
-NUMPROC=10
+NUMPROC=5
 
 while [ 1 -le $NUMPROC ]
 do
