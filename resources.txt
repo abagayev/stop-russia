@@ -107,3 +107,4 @@ https://api.sberbank.ru
 https://md.mos.ru
 https://dsszrc.ru
 https://www.moex.com
+https://oper.ru
