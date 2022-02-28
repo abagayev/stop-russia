@@ -107,3 +107,7 @@ https://api.sberbank.ru
 https://md.mos.ru
 https://dsszrc.ru
 https://www.moex.com
+https://fsb.ru
+https://yandex.ru
+https://mail.ru
+https://avito.ru
