@@ -18,5 +18,5 @@ doctl compute droplet create \
   --size s-1vcpu-1gb \
   --user-data-file userdata.sh \
   --region $REGION \
-  --ssh-keys ${KEYS} \
+  --ssh-keys "${KEYS}" \
   "stop-russia-${HASH}"
