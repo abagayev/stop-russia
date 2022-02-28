@@ -18,9 +18,11 @@ https://docs.digitalocean.com/reference/doctl/how-to/install/
 Більше про screen:  
 https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
-### Обмеження
+Щоб видалити створені інстанси:
 
-Не забудьте видалити утилізовані інстанси - скрипт не видаляє їх.
+```shell
+./clear.sh
+```
 
 ### Як це працює
 
