@@ -104,3 +104,4 @@ https://minsknews.by
 https://zarya.by
 https://grodnonews.by
 https://api.sberbank.ru
+https://www.moex.com
