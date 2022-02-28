@@ -19,6 +19,7 @@ docker run -ti --rm abagayev/stop-russia
 
 Для автоматизації розгортання у хмарі дивіться в теку `automation`, зараз є наступні провайдери:
 - digital ocean 
+- amazon web services
 - microsoft azure
 
 ### 🇺🇦 Запуск зі своєї машини 
@@ -65,6 +66,7 @@ It is best to bombard from cloud services (such as DigitalOcean), this allows yo
 
 To automate cloud deployment, look in the `automation` folder, there are now the following providers:
 - digital ocean
+- amazon web services
 - microsoft azure
 
 ### Restrictions

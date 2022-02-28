@@ -1,16 +1,13 @@
- # Azure terraform automation
+ # AWS automation
 
 Скрит для створення і налаштування інстансів бомбардувальників у AWS один клік.
 По закінчанню виконання - docker container із бомбардером вже запущено! Не треба лізті та вмікати додатково!
 Ліше якщо хочете переконатісь що все ок - то є можливість залогінитись
 
-### Підготовка
+### Як використовувати
 
 Встановити terraform  
 https://learn.hashicorp.com/tutorials/terraform/install-cli
-
-
-### Як використовувати
 
 0. `cd automation/aws-terraform`
 1. Почитай `variables.tf`
@@ -29,7 +26,6 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 ### Якщо треба змінити кількисть інстансів
 
 Дивись instance_count у variables. Цей код працю цілком у free-tier. Але якщо збільшити кількісь інстансів більш ніж 1 - то вже за бабло
-
 
 ### Обмеження
 
