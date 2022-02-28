@@ -10,8 +10,9 @@ https://docs.digitalocean.com/reference/doctl/how-to/install/
 Після цього запустити команду ініціалізації:
 
 ```shell
-./init.sh
+./init.sh 10
 ```
+where 10 its count of droples which will be up
 
 Скрипт запускає інстанс, на якому запускається докер імедж через команду screen для ручного моніторингу скриптів.
 
