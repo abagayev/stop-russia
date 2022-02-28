@@ -16,12 +16,21 @@ else
   HASH=$(date | md5)
   fi
 
+FILE='userdata.sh'
+
+# Write direct target to custom setup file
+if [ $2 ]; then
+  FILE='userdata-direct.sh'
+  COMMAND=$(printf '%s\n' "${@:2}" | sed -e 's/[\/&]/\\&/g' | tr '\n' ' ')
+  sed "s/COMMAND=.*/COMMAND=\'$COMMAND\'/g" userdata.sh > userdata-direct.sh
+fi
+
 for ((c=1; c<=NUMDROPLES; c++))
 do
      doctl compute droplet create \
        --image ubuntu-20-04-x64 \
        --size s-1vcpu-1gb \
-       --user-data-file userdata.sh \
+       --user-data-file "$FILE" \
        --region $REGION \
        --ssh-keys "${KEYS}" \
        "stop-russia-${HASH}"
