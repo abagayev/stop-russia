@@ -32,3 +32,6 @@ tfplan
 terraform.exe
 .terraform.lock.hcl
 *.tmp
+
+# Local setup file with direct target
+userdata-direct.sh
