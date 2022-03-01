@@ -39,3 +39,47 @@ Compose керує контейнерами на машині за допомо�
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.  
+
+***************************************************************************************
+
+Script for creating and setting up bombardier in docker compose.
+
+### How to use
+
+At first install Docker:
+https://docs.docker.com/get-docker/
+
+After that run:
+
+```shell
+docker compose up
+```
+
+Compose controls container on your maching using simple yaml file.
+
+### How to increase number of bombardier instances
+
+For this you need to change `replicas` in a file `docker-compose.yml`
+for example this setting will run image in 10 streams:
+
+```yaml
+    deploy:
+      mode: replicated
+      replicas: 10
+```
+
+### How to change target sites
+
+Add new urls to file `resources.txt` that resides in the same directory as `docker-compose.yml`
+
+
+Add you file to docker compose `docker-compose.yml` settings:
+```yaml
+    volumes:
+      - ./resources.txt:/app/resources.txt
+```
+
+
+### Contributing
+
+Create issues, create pull requests.
