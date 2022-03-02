@@ -49,16 +49,16 @@ Examine the scripts for yourself.
 - Розгорнути один екземпляр: `./automation/gcp-gcloud/deploy.sh`
 - Розгорнути `n = 3` екземплярів: `./automation/gcp-gcloud/deploy.sh -n 3`
 - Розгорнути один екземпляр щоб атакувати interfax: `./automation/gcp-gcloud/deploy.sh -t https://interfax.ru`
-- Розгорнути  `n = 5` екземплярів щоб атакувати interfax interfax: `./automation/gcp-gcloud/deploy.sh -n 5 -t https://interfax.ru`
+- Розгорнути  `n = 5` екземплярів щоб атакувати interfax: `./automation/gcp-gcloud/deploy.sh -n 5 -t https://interfax.ru`
 
 Загалом опція  `-n COUNT` контролює кількість екземплярів (за замовчуванням 1),
 опція  `-t TARGET` (якщо вказана), змушує `bombardier` обирати за ціль саме той url
 (будь ласка, використовуйте повний url, із `http://` чи `https://`).
 
-Щоб почистити VMs:
+Щоб видалити ВМ (VMs):
 - `./automation/gcp-gcloud/clenup.sh`
 
-Це прибере тільки ВМ, що були створені цим скриптом
+Це прибере тільки ті ВМ, що були створені цим скриптом
 
 ## Як це працює
 GCP має опцію створювати ВМ спеціально для єдіного Докер контейнера.
