@@ -31,3 +31,40 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.  
+
+***************************************************************************************
+
+Script for creating and setting up bombardier in Azure.
+
+
+### Setup
+
+Install terraform
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+Prepare azure provider
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+
+
+### How to use
+
+0. `cd automation/azure-terraform`
+1. Check `variables.tf`
+1. Run `terraform init`
+2. Run `az login` 
+3. Run `terraform plan` 
+4. Run `terraform apply` 
+5. ???
+
+You can change terraform settings to incrase number of container instances if you wallet can allow it.
+
+### Warining
+
+This is ad-hoc solution. Author does'nt bear any responsibility
+
+Don't forget to remove used instances with `terraform destroy`
+
+
+### Contributing
+
+Create issues, create pull requests.
