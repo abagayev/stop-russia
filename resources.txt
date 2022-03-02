@@ -107,8 +107,6 @@ https://api.sberbank.ru
 https://md.mos.ru
 https://dsszrc.ru
 https://www.moex.com
-https://rusvesna.su/
-https://oper.ru
 https://diesel.elcat.kg/
 https://www.nbkr.kg/
 http://www.stv-it.ru/
@@ -134,3 +132,5 @@ https://royal.cash/
 https://baksman.org/
 https://kupibit.me/
 https://abcobmen.com/
+https://rusvesna.su/
+https://oper.ru
