@@ -1,12 +1,14 @@
- # AWS automation
+# AWS automation
 
-Скрит для створення і налаштування інстансів бомбардувальників у AWS один клік.
-По закінчанню виконання - docker container із бомбардером вже запущено! Не треба лізті та вмікати додатково!
-Ліше якщо хочете переконатісь що все ок - то є можливість залогінитись
+Скрипт для створення і налаштування інстансів бомбардувальників у AWS один клік.
+
+По завершенню виконання - docker container із бомбардиром вже запущено! Не треба лізти та вмикати додатково!
+
+Якщо хочете переконатись що все ок - то є можливість залогінитись.
 
 ### Як використовувати
 
-Встановити terraform  
+Встановити terraform:
 https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 0. `cd automation/aws-terraform`
@@ -17,32 +19,30 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 5. Го `terraform apply` и вперед
 6. ???
 
-Крутим-вертим настройки в тераформе сколько хочем образцов контейнера ну и если кошелек позволяет.
+Крутимо налаштування в terraform скільки хочемо контейнерів (на скільки гаманця хватить).
 
 ### Якщо треба на інстанс
 
 Додай публічний ключ до variables
 
-### Якщо треба змінити кількисть інстансів
+### Якщо треба змінити кількість інстансів
 
-Дивись instance_count у variables. Цей код працю цілком у free-tier. Але якщо збільшити кількісь інстансів більш ніж 1 - то вже за бабло
+Дивись instance_count у variables. Цей код працю цілком у free-tier. Але якщо збільшити кількість інстансів більш ніж 1 - то вже за бабло
 
 ### Обмеження
 
-Внимание! Собрано на коленке с паяльником типа "кипятильник". Автор не несет ответственности.
+Увага! Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
 
 Не забудьте видалити утилізовані інстанси `terraform destroy`
 
 ### Доповнюємо разом
 
-Пишіть issues, створюйте pull requests.  
+Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
 
-
 Script for creating and setting up bombardier in Aws in one click.
-After script is finished, docket container with bombardier is already running! You don't need to enable it manually. If you want to check if it's running - login to cotainer
-
+After script is finished, docket container with bombardier is already running! You don't need to enable it manually. If you want to check if it's running - login to container.
 
 ### How to use
 
@@ -53,11 +53,11 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 1. Read `variables.tf`
 2. export AWS_ACCESS_KEY & export AWS_SECRET_KEY
 3. Run `terraform init`
-4. Run `terraform plan` 
-5. Run `terraform apply` 
+4. Run `terraform plan`
+5. Run `terraform apply`
 6. ???
 
-You can change terraform settings to incrase number of container instances if you wallet can allow it.
+You can change terraform settings to increase number of container instances if you wallet can allow it.
 
 ### If you want to login into instance
 
@@ -69,10 +69,9 @@ Check `instance_count` in `variables.tf`, current code works in free-tier, but i
 
 ### Limitations
 
+This is ad-hoc solution. Author does'nt bear any responsibility.
 
-This is ad-hoc solution. Author does'nt bear any responsibility
-
-Don't forget to remove used instances with `terraform destroy`
+Don't forget to remove used instances with `terraform destroy`.
 
 ### Contributing
 

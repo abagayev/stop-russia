@@ -1,10 +1,10 @@
 # Docker compose automation
 
-Скрит для створення і налаштування бомбардувальників у docker compose.
+Скрипт для створення і налаштування бомбардувальників у docker compose.
 
 ### Як використовувати
 
-Для початку треба встановити Docker:  
+Для початку треба встановити Docker:
 https://docs.docker.com/get-docker/
 
 Після цього запустити команду:
@@ -15,7 +15,7 @@ docker compose up
 
 Compose керує контейнерами на машині за допомогою простого yaml файлу.
 
-### Як змінити кількість піднятих бомдардувальників
+### Як змінити кількість піднятих бомбардувальників
 
 Для цього треба змінити значення `replicas` у файлі `docker-compose.yml`, наприклад це запустить імедж у 10 потоків:
 
@@ -27,7 +27,7 @@ Compose керує контейнерами на машині за допомо�
 
 ### Як змінити сайти для бомбардування
 
-Впишіть у файл `resources.txt` що лежить в одній директорії з `docker-compose.yml` список URL, що мають бути бомбардовані.   
+Впишіть у файл `resources.txt` що лежить в одній директорії з `docker-compose.yml` список URL, що мають бути бомбардовані.
 
 Допишіть використання вашого файлу, додавши до `docker-compose.yml` наступні рядки:
 
@@ -38,7 +38,7 @@ Compose керує контейнерами на машині за допомо�
 
 ### Доповнюємо разом
 
-Пишіть issues, створюйте pull requests.  
+Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
 
@@ -55,7 +55,7 @@ After that run:
 docker compose up
 ```
 
-Compose controls container on your maching using simple yaml file.
+Compose controls container on your matching using simple yaml file.
 
 ### How to increase number of bombardier instances
 
@@ -70,7 +70,7 @@ for example this setting will run image in 10 streams:
 
 ### How to change target sites
 
-Add new urls to file `resources.txt` that resides in the same directory as `docker-compose.yml`
+Add new urls to file `resources.txt` that resides in the same directory as `docker-compose.yml`.
 
 
 Add you file to docker compose `docker-compose.yml` settings:
@@ -78,7 +78,6 @@ Add you file to docker compose `docker-compose.yml` settings:
     volumes:
       - ./resources.txt:/app/resources.txt
 ```
-
 
 ### Contributing
 
