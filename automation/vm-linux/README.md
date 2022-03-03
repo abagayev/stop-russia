@@ -50,6 +50,10 @@ Usage:
 
 **This script is sufficient for the project deployment on the host machines, the following section is purely informative.**
 
+### Cleanup
+
+`cleanup.sh` kills all running docker containers on the machine.
+
 ### Subroutine
 
 Script `deploy_ubuntu.sh` fully prepares Ubuntu machine for spawning multiple docker containers with this project. It automatically downloads Git, Docker, and clones this repository.
