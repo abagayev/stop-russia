@@ -1,13 +1,13 @@
- # Azure terraform automation
+# Azure terraform automation
 
-Скрит для створення і налаштування інстансів бомбардувальників у Azure один клік.
+Скрипт для створення і налаштування інстансів бомбардувальників у Azure один клік.
 
 ### Підготовка
 
-Встановити terraform  
+Встановити terraform
 https://learn.hashicorp.com/tutorials/terraform/install-cli
 
-Підготувати azure provider  
+Підготувати azure provider
 https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 ### Як використовувати
@@ -15,27 +15,26 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 0. `cd automation/azure-terraform`
 1. Почитай `variables.tf`
 1. Го `terraform init`
-2. Го `az login` и сделай дело
+2. Го `az login` и зроби діло
 3. Го `terraform plan` и глянь
 4. Го `terraform apply` и вперед
 5. ???
 
-Крутим-вертим настройки в тераформе сколько хочем образцов контейнера ну и если кошелек позволяет.
+Крутимо налаштування в terraform скільки хочемо контейнерів (на скільки гаманця хватить).
 
 ### Обмеження
 
-Внимание! Собрано на коленке с паяльником типа "кипятильник". Автор не несет ответственности.
+Увага! Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
 
 Не забудьте видалити утилізовані інстанси `terraform destroy`
 
 ### Доповнюємо разом
 
-Пишіть issues, створюйте pull requests.  
+Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
 
 Script for creating and setting up bombardier in Azure.
-
 
 ### Setup
 
@@ -51,19 +50,18 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 0. `cd automation/azure-terraform`
 1. Check `variables.tf`
 1. Run `terraform init`
-2. Run `az login` 
-3. Run `terraform plan` 
-4. Run `terraform apply` 
+2. Run `az login`
+3. Run `terraform plan`
+4. Run `terraform apply`
 5. ???
 
 You can change terraform settings to incrase number of container instances if you wallet can allow it.
 
-### Warining
+### Warning
 
 This is ad-hoc solution. Author does'nt bear any responsibility
 
 Don't forget to remove used instances with `terraform destroy`
-
 
 ### Contributing
 

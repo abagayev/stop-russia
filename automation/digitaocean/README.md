@@ -1,10 +1,10 @@
- # DigitalOcean droplet automation
+# DigitalOcean droplet automation
 
-Скрит для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік.
+Скрипт для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік.
 
 ### Як використовувати
 
-Для початку треба встановити і зконфігурувати doctl:  
+Для початку треба встановити і налаштувати doctl:
 https://docs.digitalocean.com/reference/doctl/how-to/install/
 
 Після цього запустити команду ініціалізації:
@@ -12,11 +12,12 @@ https://docs.digitalocean.com/reference/doctl/how-to/install/
 ```shell
 ./init.sh 10
 ```
-where 10 its count of droples which will be up
+
+where `10` is a number of droplets to be created.
 
 Скрипт запускає інстанс, на якому запускається докер імедж через команду screen для ручного моніторингу скриптів.
 
-Більше про screen:  
+Більше про screen:
 https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 Щоб видалити створені інстанси:
@@ -27,15 +28,15 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 ### Як це працює
 
-Скрипт ініціалізації створює інстансу у випадковому активному регіоні і налаштовує на ній все для бомбардування. Інстанса запускається с існуючими ssh ключами, також використовується найдешевший тип інстансів за 5 баксів на місяць.
+Скрипт ініціалізації створює інстансу у випадковому активному регіоні і налаштовує на ній все для бомбардування. Інстанс запускається з існуючими ssh-ключами, також використовується найдешевший тип інстансів за 5 баксів на місяць.
 
 ### Доповнюємо разом
 
-Пишіть issues, створюйте pull requests.  
+Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
 
-Script for creating and setting up digital ocean instances with bombardier
+Script for creating and setting up digital ocean instances with bombardier.
 
 ### How to use
 
@@ -43,14 +44,15 @@ At first install and setup `doctl` on your machine:
 https://docs.digitalocean.com/reference/doctl/how-to/install/
 
 
-After that run initialization script 
+After that run initialization script:
 
 ```shell
 ./init.sh 10
 ```
-where 10 its count of droples which will be up
 
-Script creates DO droplet instances, where docker images is run using screen command, for manual script monitoring
+where `10` is a number of droplets to be created.
+
+Script creates DO droplet instances, where docker images is run using screen command, for manual script monitoring.
 
 More about screen:
 https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
@@ -61,9 +63,10 @@ To remove created instances run:
 ./clear.sh
 ```
 
-### How it works 
+### How it works
 
 Script creates droplet in random active region and setup everything for bombardier.
+
 Instance is running with existing ssh keys, also cheapest droplet is used (5 usd month)
 
 ### Contributing
