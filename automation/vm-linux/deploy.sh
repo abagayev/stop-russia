@@ -1,11 +1,11 @@
 #!/bin/bash
 
-KEY='/home/kali/.ssh/vm-key'
-HOSTS="hosts.txt"
-DEPLOYMENT_SCRIPT="deploy_ubuntu.sh"
-#DEPLOYMENT_SCRIPT="/usr/local/bin/git/stop-russia/automation/linux-vm/test.sh"
+KEY='~/.ssh/vm-key'
 CONTAINERS_PER_MACHINE=5
 TARGETS_URL="https://raw.githubusercontent.com/abagayev/stop-russia/main/resources.txt"
+
+HOSTS="hosts.txt"
+DEPLOYMENT_SCRIPT="deploy_ubuntu.sh"
 
 #Prepare a single VM for the deployment
 #Arguments: host, key, deployment_script, key, number of replics, targets url
