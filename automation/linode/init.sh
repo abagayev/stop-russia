@@ -1,10 +1,16 @@
 #!/bin/bash
 
+# set root pass
+ROOT_PASS=$(<env)
+
+if [ -z "$ROOT_PASS" ]
+then
+      echo -e "variable \$ROOT_PASS is empty\nYou must add strong password into env file\nFor example: echo \"MyStrongPass\" > env"  && exit 0
+fi
+
 # get parameter of num linodes
 if [ $1 ]; then  NUMDROPLETS=$1; else NUMDROPLETS=1; fi
 
-# set root pass
-if [ $2 ]; then  ROOT_PASS=$2; else echo -e "You must set a root password\nFor example: ./init.sh 10 MyStrongPass2022" && exit 1; fi
 
 # get list of account ssh keys
 KEYS=$(linode-cli sshkeys list --text --format 'ssh_key' --no-header)
