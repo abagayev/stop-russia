@@ -32,3 +32,6 @@ tfplan
 terraform.exe
 .terraform.lock.hcl
 *.tmp
+
+# Environment
+.env
