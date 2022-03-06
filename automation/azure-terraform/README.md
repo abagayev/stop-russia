@@ -1,4 +1,4 @@
-# Azure terraform automation
+# 🇺🇦 Microsoft Azure Terraform Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у Azure один клік.
 
@@ -34,6 +34,8 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 ***************************************************************************************
 
+# 🇺🇸 Microsoft Azure Terraform Automation
+
 Script for creating and setting up bombardier in Azure.
 
 ### Setup
@@ -55,7 +57,7 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 4. Run `terraform apply`
 5. ???
 
-You can change terraform settings to incrase number of container instances if you wallet can allow it.
+You can change terraform settings to increase number of container instances if you wallet can allow it.
 
 ### Warning
 

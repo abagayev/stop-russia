@@ -1,4 +1,4 @@
-# DigitalOcean droplet automation
+# 🇺🇦 DigitalOcean Droplet Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік.
 
@@ -35,6 +35,8 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
+
+# 🇺🇸 DigitalOcean Droplet Automation
 
 Script for creating and setting up digital ocean instances with bombardier.
 

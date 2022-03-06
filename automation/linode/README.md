@@ -1,24 +1,23 @@
-# Linode automation
+# 🇺🇦 Linode Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників на Linode в один клік.
 
 ### Як використовувати
 
-Для початку треба встановити і налаштувати `linode-cli`:
+- Для початку треба встановити і налаштувати `linode-cli`:
 https://www.linode.com/docs/guides/linode-cli/
 
-Виконати налаштування з розділу - Initial Configuration of the Linode CLI (https://www.linode.com/docs/guides/linode-cli/)
+- Виконати налаштування з розділу - Initial Configuration of the Linode CLI (https://www.linode.com/docs/guides/linode-cli/)
 
-Стровири файл з імʼям `env` та записати в нього стійкий пароль.
+- Створи файл з ім'ям `env` та запиши в нього стійкий пароль.
 
-
-Після цього запустити команду ініціалізації:
+- Після цього запустити команду ініціалізації:
 
 ```shell
-./init.sh 10 
+./init.sh 10
 ```
 
-де `10` це число linodes які будуть створені. Ліміт в аккаунті по замовчаванню - 10 
+де `10` це число linodes які будуть створені. Ліміт в аккаунті за замовчуванням - 10.
 
 Скрипт запускає інстанс, на якому запускається докер імедж через команду screen для ручного моніторингу скриптів.
 
@@ -41,6 +40,8 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 ***************************************************************************************
 
+# 🇺🇸 Linode Automation
+
 Script for creating and setting up linode instances with bombardier.
 
 ### How to use
@@ -61,6 +62,7 @@ After that run initialization script:
 where `10` is a number of linodes to be created.
 
 The script launches an instance that runs the docker image via the screen command to manually monitor the scripts.
+
 More about screen:
 https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 

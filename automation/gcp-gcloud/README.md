@@ -1,4 +1,4 @@
-# Google Cloud Platform (GCP) VM автоматизація
+# 🇺🇦 Google Cloud Platform (GCP) VM Автоматизація
 
 Скрипти щоб розгорнути `bombardier` Докер образ у GCP.
 
@@ -8,9 +8,9 @@
 
 Передумови:
 
-- GCP аккаунт та проект, що може створювати VM (обчислювальні екземпляри), [розпочати тріалку](https://cloud.google.com/free).
-- `gcloud` застосунок (дивись [як встановити](https://cloud.google.com/sdk/docs/install))
-- аутентіфікувати `gcloud` (запустити, `gcloud init`)
+- GCP аккаунт та проект, що може створювати VM (обчислювальні екземпляри), [розпочати trial](https://cloud.google.com/free).
+- `gcloud` додаток (дивись [як встановити](https://cloud.google.com/sdk/docs/install))
+- автентифікувати `gcloud` (запустити, `gcloud init`)
 
 Щоб розгорнути образ:
 
@@ -23,7 +23,7 @@
 
 Щоб видалити ВМ (VMs):
 
-- `./automation/gcp-gcloud/clenup.sh`
+- `./automation/gcp-gcloud/cleanup.sh`
 
 Це прибере тільки ті ВМ, що були створені цим скриптом.
 
@@ -36,7 +36,9 @@ GCP має опцію створювати ВМ спеціально для єд
 
 Перед запуском перевіряйте скрипти самостійно (не запускайте незнайомі).
 
-# Google Cloud Platform (GCP) VM automation
+***************************************************************************************
+
+# 🇺🇸 Google Cloud Platform (GCP) VM Automation
 
 Scripts to deploy `bombardier` Docker image to GCP.
 You can control the number of instances and you can choose whether to attack all targets from the embedded `resources.txt` file, or supply a custom URL to target.
@@ -59,7 +61,8 @@ To deploy the image:
 In general, `-n COUNT` option controls the number of instances (default 1), and `-t TARGET` option, if supplied, will make the `bombardier` target that one url only (please, use full url, with `http://` or `https://`).
 
 To clean up the VMs:
-- `./automation/gcp-gcloud/clenup.sh`
+
+- `./automation/gcp-gcloud/cleanup.sh`
 
 This will only remove the VMs created by this script.
 

@@ -1,4 +1,4 @@
-# Docker compose automation
+# 🇺🇦 Docker Compose Автоматизація
 
 Скрипт для створення і налаштування бомбардувальників у docker compose.
 
@@ -20,9 +20,9 @@ Compose керує контейнерами на машині за допомо�
 Для цього треба змінити значення `replicas` у файлі `docker-compose.yml`, наприклад це запустить імедж у 10 потоків:
 
 ```yaml
-    deploy:
-      mode: replicated
-      replicas: 10
+deploy:
+  mode: replicated
+  replicas: 10
 ```
 
 ### Як змінити сайти для бомбардування
@@ -32,8 +32,8 @@ Compose керує контейнерами на машині за допомо�
 Допишіть використання вашого файлу, додавши до `docker-compose.yml` наступні рядки:
 
 ```yaml
-    volumes:
-      - ./resources.txt:/app/resources.txt
+volumes:
+  - ./resources.txt:/app/resources.txt
 ```
 
 ### Доповнюємо разом
@@ -41,6 +41,8 @@ Compose керує контейнерами на машині за допомо�
 Пишіть issues, створюйте pull requests.
 
 ***************************************************************************************
+
+# 🇺🇸 Docker Compose Automation
 
 Script for creating and setting up bombardier in docker compose.
 
@@ -63,9 +65,9 @@ For this you need to change `replicas` in a file `docker-compose.yml`
 for example this setting will run image in 10 streams:
 
 ```yaml
-    deploy:
-      mode: replicated
-      replicas: 10
+deploy:
+  mode: replicated
+  replicas: 10
 ```
 
 ### How to change target sites
@@ -75,8 +77,8 @@ Add new urls to file `resources.txt` that resides in the same directory as `dock
 
 Add you file to docker compose `docker-compose.yml` settings:
 ```yaml
-    volumes:
-      - ./resources.txt:/app/resources.txt
+volumes:
+  - ./resources.txt:/app/resources.txt
 ```
 
 ### Contributing

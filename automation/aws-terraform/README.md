@@ -1,4 +1,4 @@
-# AWS automation
+# 🇺🇦 AWS Terraform Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у AWS один клік.
 
@@ -41,8 +41,13 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 ***************************************************************************************
 
+# 🇺🇸 AWS Terraform Automation
+
 Script for creating and setting up bombardier in Aws in one click.
-After script is finished, docket container with bombardier is already running! You don't need to enable it manually. If you want to check if it's running - login to container.
+
+After script is finished, docket container with bombardier is already running! You don't need to enable it manually.
+
+If you want to check if it's running - login to container.
 
 ### How to use
 
