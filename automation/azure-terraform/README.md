@@ -1,14 +1,16 @@
+[UA](automation/azure-terraform#-microsoft-azure-terraform-автоматизація) | [EN](automation/azure-terraform#-microsoft-azure-terraform-automation)
+
+---
+
 # 🇺🇦 Microsoft Azure Terraform Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у Azure один клік.
 
 ### Підготовка
 
-Встановити terraform
-https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Встановити terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
-Підготувати azure provider
-https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+- Підготувати azure provider: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 ### Як використовувати
 
@@ -24,15 +26,15 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 ### Обмеження
 
-Увага! Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
+**Увага!** Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
 
-Не забудьте видалити утилізовані інстанси `terraform destroy`
+Не забудьте видалити утилізовані інстанси `terraform destroy`.
 
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
 
 # 🇺🇸 Microsoft Azure Terraform Automation
 
@@ -40,12 +42,9 @@ Script for creating and setting up bombardier in Azure.
 
 ### Setup
 
-Install terraform
-https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Install terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
-Prepare azure provider
-https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
-
+- Prepare azure provider: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 ### How to use
 
@@ -61,9 +60,9 @@ You can change terraform settings to increase number of container instances if y
 
 ### Warning
 
-This is ad-hoc solution. Author does'nt bear any responsibility
+This is ad-hoc solution. Author does'nt bear any responsibility.
 
-Don't forget to remove used instances with `terraform destroy`
+Don't forget to remove used instances with `terraform destroy`.
 
 ### Contributing
 

@@ -1,13 +1,16 @@
-# Stop russian aggression
+[UA](#-зупинімо-російську-агресію) | [EN](#-stop-russian-aggression)
 
-Be here to stop russian propaganda.
+---
 
-### 🇺🇦 Як використовувати
+# 🇺🇦 Зупинімо російську агресію
 
-Для початку треба встановити Docker:
-https://docs.docker.com/get-docker/
+Стоп російській пропаганді.
 
-Після цього запустити одну команду у терміналі:
+### Як використовувати
+
+- Для початку треба встановити Docker: https://docs.docker.com/get-docker/
+
+- Після цього запустити одну команду у терміналі:
 
 ```shell
 docker run -ti --rm abagayev/stop-russia
@@ -19,26 +22,29 @@ docker run -ti --rm abagayev/stop-russia
 
 Для автоматизації розгортання у хмарі дивіться в теку `automation`, зараз є наступні провайдери:
 
-- Amazon Web Services | [README](https://github.com/abagayev/stop-russia/tree/main/automation/aws-terraform#aws-automation)
-- Microsoft Azure | [README](https://github.com/abagayev/stop-russia/tree/main/automation/azure-terraform#azure-terraform-automation)
-- DigitalOcean | [README](https://github.com/abagayev/stop-russia/tree/main/automation/digitaocean#digitalocean-droplet-automation)
-- Google Cloud Platform | [README](https://github.com/abagayev/stop-russia/tree/main/automation/gcp-gcloud#google-cloud-platform-gcp-vm-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%8F)
+- Через terraform
+  - Amazon Web Services | [README](automation/aws-terraform#-aws-terraform-автоматизація)
+  - Microsoft Azure | [README](automation/azure-terraform#-microsoft-azure-terraform-автоматизація)
+- Через bash
+  - DigitalOcean | [README](automation/digitaocean#-digitalocean-droplet-автоматизація)
+  - Google Cloud Platform | [README](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-автоматизація)
+  - Linode | [README](automation/linode#-linode-автоматизація)
 
 ### Запуск зі своєї машини
 
-Для запуску зі свого ноутбука / десктопа рекомендується використовувати Docker compose ([README](https://github.com/abagayev/stop-russia/tree/main/automation/compose)), для якого не треба встановлювати додатковий софт, проте цей спосіб дає у більш простий спосіб підтюнити під себе налаштування.
+Для запуску зі свого ноутбука / десктопа рекомендується використовувати Docker compose ([README](automation/compose#-docker-compose-автоматизація)), для якого не треба встановлювати додатковий софт, проте цей спосіб дає у більш простий спосіб підтюнити під себе налаштування.
 
 Огляньте список обмежень перш ніж використовувати домашню / спільну мережу.
 
 ### Обмеження
 
-Увага! Використовуйте це ПО тільки там, де ви не можете завдати шкоди інтернет мережі.
+**Увага!** Використовуйте це ПО тільки там, де ви не можете завдати шкоди інтернет мережі.
 
 Користуйтесь сторонніми VPN, запрошуйте тих, хто знаходиться за територією України.
 
-НЕ ВИКОРИСТОВУЙТЕ В УКРИТТЯХ - ви можете нашкодити тим, хто зараз розмовляє з родиною чи відслідковує новини.
+**НЕ ВИКОРИСТОВУЙТЕ В УКРИТТЯХ** - ви можете нашкодити тим, хто зараз розмовляє з родиною чи відслідковує новини.
 
-НЕ ВИКОРИСТОВУЙТЕ В ПУБЛІЧНИХ МЕРЕЖАХ - наприклад в офісах, ви можете задати шкоди місцевому провайдеру
+**НЕ ВИКОРИСТОВУЙТЕ В ПУБЛІЧНИХ МЕРЕЖАХ** - наприклад в офісах, ви можете задати шкоди місцевому провайдеру
 
 ### Як це працює
 
@@ -50,14 +56,17 @@ docker run -ti --rm abagayev/stop-russia
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
 
-### 🇺🇸 How to use
+# 🇺🇸 Stop russian aggression
 
-To get started, you need to install Docker:
-https://docs.docker.com/get-docker/
+Be here to stop russian propaganda.
 
-Then run one command in the terminal:
+### How to use
+
+- To get started, you need to install Docker: https://docs.docker.com/get-docker/
+
+- Then run one command in the terminal:
 
 ```shell
 docker run -ti --rm abagayev/stop-russia
@@ -69,18 +78,21 @@ It is best to bombard from cloud services (such as DigitalOcean), this allows yo
 
 To automate cloud deployment, look in the `automation` folder, there are now the following providers:
 
-- Amazon Web Services | [README](https://github.com/abagayev/stop-russia/tree/main/automation/aws-terraform#how-to-use)
-- Microsoft Azure | [README](https://github.com/abagayev/stop-russia/tree/main/automation/azure-terraform#setup)
-- DigitalOcean | [README](https://github.com/abagayev/stop-russia/tree/main/automation/digitaocean#how-to-use)
-- Google Cloud Platform | [README](https://github.com/abagayev/stop-russia/tree/main/automation/gcp-gcloud#google-cloud-platform-gcp-vm-automation)
+- Via terraform
+  - Amazon Web Services | [README](automation/aws-terraform#-aws-terraform-automation)
+  - Microsoft Azure | [README](automation/azure-terraform#-microsoft-azure-terraform-automation)
+- Via bash
+  - DigitalOcean | [README](automation/digitaocean#-digitalocean-droplet-automation)
+  - Google Cloud Platform | [README](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-automation)
+  - Linode | [README](automation/linode#-linode-automation)
 
 ### Restrictions
 
-Warning! Use this software where you cannot damage the Internet. Use third-party VPNs, invite those who are outside Ukraine.
+**Warning!** Use this software where you cannot damage the Internet. Use third-party VPNs, invite those who are outside Ukraine.
 
-DO NOT USE IN SHELTERS - you can harm those who are currently talking to family or following the news.
+**DO NOT USE IN SHELTERS** - you can harm those who are currently talking to family or following the news.
 
-DO NOT USE IN PUBLIC NETWORKS - for example in offices, you may harm your local provider
+**DO NOT USE IN PUBLIC NETWORKS** - for example in offices, you may harm your local provider
 
 ### How it works
 

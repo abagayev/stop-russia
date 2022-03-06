@@ -1,3 +1,7 @@
+[UA](automation/aws-terraform#-aws-terraform-автоматизація) | [EN](automation/aws-terraform#-aws-terraform-automation)
+
+---
+
 # 🇺🇦 AWS Terraform Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у AWS один клік.
@@ -8,8 +12,7 @@
 
 ### Як використовувати
 
-Встановити terraform:
-https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Встановити terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 0. `cd automation/aws-terraform`
 1. Почитай `variables.tf`
@@ -19,27 +22,27 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 5. Го `terraform apply` и вперед
 6. ???
 
-Крутимо налаштування в terraform скільки хочемо контейнерів (на скільки гаманця хватить).
+- Крутимо налаштування в terraform скільки хочемо контейнерів (на скільки гаманця хватить).
 
 ### Якщо треба на інстанс
 
-Додай публічний ключ до variables
+Додай публічний ключ до variables.
 
 ### Якщо треба змінити кількість інстансів
 
-Дивись instance_count у variables. Цей код працю цілком у free-tier. Але якщо збільшити кількість інстансів більш ніж 1 - то вже за бабло
+Дивись instance_count у variables. Цей код працю цілком у free-tier. Але якщо збільшити кількість інстансів більш ніж 1 - то вже за бабло.
 
 ### Обмеження
 
-Увага! Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
+**Увага!** Зібрано на скору руч паяльником типу "кип'ятильник". Автор не несе відповідальності.
 
-Не забудьте видалити утилізовані інстанси `terraform destroy`
+Не забудьте видалити утилізовані інстанси `terraform destroy`.
 
 ### Доповнюємо разом
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
 
 # 🇺🇸 AWS Terraform Automation
 
@@ -51,8 +54,7 @@ If you want to check if it's running - login to container.
 
 ### How to use
 
-Install terraform
-https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Install terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 0. `cd automation/aws-terraform`
 1. Read `variables.tf`
@@ -66,15 +68,15 @@ You can change terraform settings to increase number of container instances if y
 
 ### If you want to login into instance
 
-Add public key to `variables`
+Add public key to `variables`.
 
 ### If you want to change number of instances
 
-Check `instance_count` in `variables.tf`, current code works in free-tier, but if you increase number of instances it will cost money
+Check `instance_count` in `variables.tf`, current code works in free-tier, but if you increase number of instances it will cost money.
 
 ### Limitations
 
-This is ad-hoc solution. Author does'nt bear any responsibility.
+**Warning!** This is ad-hoc solution. Author does'nt bear any responsibility.
 
 Don't forget to remove used instances with `terraform destroy`.
 

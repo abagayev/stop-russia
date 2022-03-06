@@ -1,3 +1,7 @@
+[UA](automation/linode#-linode-автоматизація) | [EN](automation/linode#-linode-automation)
+
+---
+
 # 🇺🇦 Linode Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників на Linode в один клік.
@@ -38,7 +42,7 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
 
 # 🇺🇸 Linode Automation
 
@@ -76,7 +80,7 @@ To remove created instances run:
 
 Script creates linodes in random active region and setup everything for bombardier.
 
-Instance is running with existing password from env file, also cheapest linode is used (5 usd month)
+Instance is running with existing password from env file, also cheapest linode is used (5 usd month).
 
 ### Contributing
 

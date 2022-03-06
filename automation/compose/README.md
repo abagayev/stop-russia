@@ -1,13 +1,16 @@
+[UA](automation/compose#-docker-compose-автоматизація) | [EN](automation/compose#-docker-compose-automation)
+
+---
+
 # 🇺🇦 Docker Compose Автоматизація
 
 Скрипт для створення і налаштування бомбардувальників у docker compose.
 
 ### Як використовувати
 
-Для початку треба встановити Docker:
-https://docs.docker.com/get-docker/
+- Для початку треба встановити Docker: https://docs.docker.com/get-docker/
 
-Після цього запустити команду:
+- Після цього запустити команду:
 
 ```shell
 docker compose up
@@ -40,7 +43,7 @@ volumes:
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
 
 # 🇺🇸 Docker Compose Automation
 
@@ -48,10 +51,9 @@ Script for creating and setting up bombardier in docker compose.
 
 ### How to use
 
-At first install Docker:
-https://docs.docker.com/get-docker/
+- At first install Docker: https://docs.docker.com/get-docker/
 
-After that run:
+- After that run:
 
 ```shell
 docker compose up

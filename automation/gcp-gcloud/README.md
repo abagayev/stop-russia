@@ -1,3 +1,7 @@
+[UA](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-автоматизація) | [EN](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-automation)
+
+---
+
 # 🇺🇦 Google Cloud Platform (GCP) VM Автоматизація
 
 Скрипти щоб розгорнути `bombardier` Докер образ у GCP.
@@ -36,11 +40,12 @@ GCP має опцію створювати ВМ спеціально для єд
 
 Перед запуском перевіряйте скрипти самостійно (не запускайте незнайомі).
 
-***************************************************************************************
+---
 
 # 🇺🇸 Google Cloud Platform (GCP) VM Automation
 
 Scripts to deploy `bombardier` Docker image to GCP.
+
 You can control the number of instances and you can choose whether to attack all targets from the embedded `resources.txt` file, or supply a custom URL to target.
 
 ## How to use
