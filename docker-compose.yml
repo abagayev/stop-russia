@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  bomber:
+    build:
+      context: .
+      args:
+        - TIMEOUT=${TIMEOUT}
+        - CONNECTIONS=${CONNECTIONS}
+        - STRATEGY=${STRATEGY}
+    deploy:
+      mode: replicated
+      replicas: ${REPLICAS}
