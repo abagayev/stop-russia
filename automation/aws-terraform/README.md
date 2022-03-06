@@ -1,4 +1,4 @@
-[UA](automation/aws-terraform#-aws-terraform-автоматизація) | [EN](automation/aws-terraform#-aws-terraform-automation)
+[UA](#-aws-terraform-автоматизація) | [EN](#-aws-terraform-automation)
 
 ---
 

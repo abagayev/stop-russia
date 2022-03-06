@@ -1,4 +1,4 @@
-[UA](automation/compose#-docker-compose-автоматизація) | [EN](automation/compose#-docker-compose-automation)
+[UA](#-docker-compose-автоматизація) | [EN](#-docker-compose-automation)
 
 ---
 

@@ -1,4 +1,4 @@
-[UA](automation/digitaocean#-digitalocean-droplet-автоматизація) | [EN](automation/digitaocean#-digitalocean-droplet-automation)
+[UA](#-digitalocean-droplet-автоматизація) | [EN](#-digitalocean-droplet-automation)
 
 ---
 

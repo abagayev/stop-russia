@@ -1,4 +1,4 @@
-[UA](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-автоматизація) | [EN](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-automation)
+[UA](#-google-cloud-platform-gcp-vm-автоматизація) | [EN](#-google-cloud-platform-gcp-vm-automation)
 
 ---
 

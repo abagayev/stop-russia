@@ -1,4 +1,4 @@
-[UA](automation/azure-terraform#-microsoft-azure-terraform-автоматизація) | [EN](automation/azure-terraform#-microsoft-azure-terraform-automation)
+[UA](#-microsoft-azure-terraform-автоматизація) | [EN](#-microsoft-azure-terraform-automation)
 
 ---
 

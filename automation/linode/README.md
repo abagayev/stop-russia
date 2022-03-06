@@ -1,4 +1,4 @@
-[UA](automation/linode#-linode-автоматизація) | [EN](automation/linode#-linode-automation)
+[UA](#-linode-автоматизація) | [EN](#-linode-automation)
 
 ---
 
