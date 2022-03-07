@@ -29,6 +29,7 @@ docker run -ti --rm abagayev/stop-russia
   - DigitalOcean | [README](automation/digitaocean#-digitalocean-droplet-автоматизація)
   - Google Cloud Platform | [README](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-автоматизація)
   - Linode | [README](automation/linode#-linode-автоматизація)
+  - Vultr | [README](automation/vultr#-vultr-автоматизація)
 
 ### Запуск зі своєї машини
 
@@ -85,6 +86,7 @@ To automate cloud deployment, look in the `automation` folder, there are now the
   - DigitalOcean | [README](automation/digitaocean#-digitalocean-droplet-automation)
   - Google Cloud Platform | [README](automation/gcp-gcloud#-google-cloud-platform-gcp-vm-automation)
   - Linode | [README](automation/linode#-linode-automation)
+  - Vultr | [README](automation/vultr#-vultr-automation)
 
 ### Restrictions
 
