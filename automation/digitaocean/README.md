@@ -1,13 +1,16 @@
-# DigitalOcean droplet automation
+[UA](#-digitalocean-droplet-автоматизація) | [EN](#-digitalocean-droplet-automation)
+
+---
+
+# 🇺🇦 DigitalOcean Droplet Автоматизація
 
 Скрипт для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік.
 
 ### Як використовувати
 
-Для початку треба встановити і налаштувати doctl:
-https://docs.digitalocean.com/reference/doctl/how-to/install/
+- Для початку треба встановити і налаштувати `doctl`: https://docs.digitalocean.com/reference/doctl/how-to/install/
 
-Після цього запустити команду ініціалізації:
+- Після цього запустити команду ініціалізації:
 
 ```shell
 ./init.sh 10
@@ -17,8 +20,7 @@ where `10` is a number of droplets to be created.
 
 Скрипт запускає інстанс, на якому запускається докер імедж через команду screen для ручного моніторингу скриптів.
 
-Більше про screen:
-https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
+Більше про screen: https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 Щоб видалити створені інстанси:
 
@@ -34,17 +36,18 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 Пишіть issues, створюйте pull requests.
 
-***************************************************************************************
+---
+
+# 🇺🇸 DigitalOcean Droplet Automation
 
 Script for creating and setting up digital ocean instances with bombardier.
 
 ### How to use
 
-At first install and setup `doctl` on your machine:
-https://docs.digitalocean.com/reference/doctl/how-to/install/
+- At first install and setup `doctl` on your machine: https://docs.digitalocean.com/reference/doctl/how-to/install/
 
 
-After that run initialization script:
+- After that run initialization script:
 
 ```shell
 ./init.sh 10
@@ -54,8 +57,7 @@ where `10` is a number of droplets to be created.
 
 Script creates DO droplet instances, where docker images is run using screen command, for manual script monitoring.
 
-More about screen:
-https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
+More about screen: https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 
 To remove created instances run:
 
@@ -67,7 +69,7 @@ To remove created instances run:
 
 Script creates droplet in random active region and setup everything for bombardier.
 
-Instance is running with existing ssh keys, also cheapest droplet is used (5 usd month)
+Instance is running with existing ssh keys, also cheapest droplet is used (5 usd month).
 
 ### Contributing
 

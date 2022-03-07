@@ -17,10 +17,10 @@ TIMESTAMP=$(date +%s)
 usage() {
 	echo "Usage: $0 [-n <COUNT> -t <TARGET-URL>]" 1>&2
 	echo ""
-	
+
 	printf "\tExample: $0 -n 2 -t https://interfax.ru\n" 1>&2
 	printf "\tExample: $0 -n 3\n" 1>&2
-	
+
 	exit 1
 }
 
@@ -51,7 +51,7 @@ do
 			--container-arg=1800s \
 			--container-arg=$TARGET"
 	fi
-	
+
 	gcloud compute instances create-with-container \
 		$TAG-$TIMESTAMP-$i \
 		--zone=asia-northeast3-a \

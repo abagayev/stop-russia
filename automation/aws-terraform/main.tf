@@ -64,7 +64,7 @@ resource "aws_route_table_association" "rta-subnet1" {
 }
 
 # SECURITY GROUPS #
-# Nginx security group 
+# Nginx security group
 resource "aws_security_group" "instance-sg" {
   name   = "instance_sg"
   vpc_id = aws_vpc.vpc.id
