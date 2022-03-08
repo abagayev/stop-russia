@@ -3,7 +3,7 @@
 apt -y update
 apt -y install docker.io
 
-fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile 
+fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile
 
 NUMPROC=5
 
