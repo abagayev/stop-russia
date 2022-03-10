@@ -12,7 +12,7 @@
 
 Прогрес:
 
-- WEV: https://stats.uptimerobot.com/1zzXGs6j1z
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
 - API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
 - RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
@@ -57,6 +57,12 @@ Script for creating and setting up bombardier in Aws in one click.
 After script is finished, docket container with bombardier is already running! You don't need to enable it manually.
 
 If you want to check if it's running - login to container.
+
+Progress:
+
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (docs - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
 ### How to use
 

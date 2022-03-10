@@ -10,7 +10,7 @@
 
 Прогрес:
 
-- WEV: https://stats.uptimerobot.com/1zzXGs6j1z
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
 - API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
 - RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
@@ -53,6 +53,12 @@ GCP має опцію створювати ВМ спеціально для єд
 Scripts to deploy `bombardier` Docker image to GCP.
 
 You can control the number of instances and you can choose whether to attack all targets from the embedded `resources.txt` file, or supply a custom URL to target.
+
+Progress:
+
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (docs - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
 ## How to use
 
