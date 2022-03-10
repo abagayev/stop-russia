@@ -8,6 +8,12 @@
 
 Ви можете контролювати кількість екземплярів та обирати чи атакувати усі цілі зы вбудованого `resources.txt` файлу, або надати спеціальну URL адресу як ціль.
 
+Прогрес:
+
+- WEV: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
+
 ## Як використовувати
 
 Передумови:

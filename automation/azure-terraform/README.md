@@ -6,6 +6,12 @@
 
 Скрипт для створення і налаштування інстансів бомбардувальників у Azure один клік.
 
+Прогрес:
+
+- WEV: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
+
 ### Підготовка
 
 - Встановити terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
