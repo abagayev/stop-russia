@@ -6,12 +6,6 @@
 
 Скрипт для створення і налаштування інстансів бомбардувальників на Linode в один клік.
 
-Прогрес:
-
-- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
-- API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
-- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
-
 ### Як використовувати
 
 - Для початку треба встановити і налаштувати `linode-cli`:
@@ -53,12 +47,6 @@ https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
 # 🇺🇸 Linode Automation
 
 Script for creating and setting up linode instances with bombardier.
-
-Progress:
-
-- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
-- API: (docs - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
-- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
 ### How to use
 

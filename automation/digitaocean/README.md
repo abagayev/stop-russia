@@ -4,13 +4,7 @@
 
 # 🇺🇦 DigitalOcean Droplet Автоматизація
 
-Скрипт для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік.
-
-Прогрес:
-
-- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
-- API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
-- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
+Скрипт для створення і налаштування інстансів бомбардувальників у DigitalOcean в один клік
 
 ### Як використовувати
 
@@ -47,12 +41,6 @@ where `10` is a number of droplets to be created.
 # 🇺🇸 DigitalOcean Droplet Automation
 
 Script for creating and setting up digital ocean instances with bombardier.
-
-Progress:
-
-- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
-- API: (docs - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
-- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
 ### How to use
 
