@@ -6,6 +6,12 @@
 
 Стоп російській пропаганді.
 
+Прогрес:
+
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (дока - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
+
 ### Як використовувати
 
 - Для початку треба встановити Docker: https://docs.docker.com/get-docker/
@@ -62,6 +68,12 @@ docker run -ti --rm abagayev/stop-russia
 # 🇺🇸 Stop russian aggression
 
 Be here to stop russian propaganda.
+
+Progress:
+
+- WEB: https://stats.uptimerobot.com/1zzXGs6j1z
+- API: (docs - https://uptimerobot.com/api/, read-only API key - `ur1656914-20fbb55acfe4ded721f786c7`)
+- RSS: http://rss.uptimerobot.com/u1656914-6fa9918b99b0ce678f4600e76414227
 
 ### How to use
 
