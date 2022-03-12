@@ -26,7 +26,7 @@
 
 ### Як це працює
 
-Скрипт ініціалізації створює інстансу у випадковому активному регіоні і налаштовує на ній все для бомбардування. Інстанс запускається з паролем, який можна дізнатися в адмінці після створення, використовується найдешевший тип інстансів за 5 баксів на місяць.
+Скрипт ініціалізації створює інстансу у випадковому активному Asia-Pacific регіоні і налаштовує на ній все для бомбардування. Інстанс запускається з паролем, який можна дізнатися в адмінці після створення, використовується найдешевший тип інстансів за 5 баксів на місяць.
 
 ### Доповнюємо разом
 
@@ -56,7 +56,7 @@ More about screen: https://www.tecmint.com/screen-command-examples-to-manage-lin
 
 ### How it works
 
-Script creates instances in random active region and setup everything for bombardier.
+Script creates instances in random active Asia-Pacific region and setup everything for bombardier.
 
 Instance is running with random password (you'll be able to get it from admin panel), also cheapest plan is used (5 usd month).
 
