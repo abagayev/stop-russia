@@ -27,8 +27,8 @@ do
   # get a random region from the list of all available
   # REGION=$(vultr-cli regions list | sort -R | head -n1 | cut -c1-3)
 
-  # get a random region from the list of APAC regions
-  REGION=$(vultr-cli regions list | awk '/icn|mel|nrt|sgp|syd/ {print $0}' | sort -R | head -n1 | cut -c1-3)
+  # get a random region from the list of asian regions
+  REGION=$(vultr-cli regions list | awk '/icn|nrt|sgp/ {print $0}' | sort -R | head -n1 | cut -c1-3)
 
   NAME="stop-russia-${REGION}-$(date +%s)"
 

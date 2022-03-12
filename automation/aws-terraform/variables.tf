@@ -1,7 +1,7 @@
 variable "aws_region" {
   type        = string
   description = "Region for AWS Resources"
-  default     = "ap-east-1" # default APAC region
+  default     = "ap-east-1" # default asian region
 }
 
 variable "enable_dns_hostnames" {

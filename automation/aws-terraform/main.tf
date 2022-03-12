@@ -1,5 +1,5 @@
 ##################################################################################
-# APAC REGION GENERATOR
+# ASIAN REGION GENERATOR
 ##################################################################################
 
 resource "random_shuffle" "az" {
@@ -10,7 +10,6 @@ resource "random_shuffle" "az" {
     "ap-northeast-3", # Asia Pacific (Osaka)
     "ap-northeast-2", # Asia Pacific (Seoul)
     "ap-southeast-1", # Asia Pacific (Singapore)
-    "ap-southeast-2", # Asia Pacific (Sydney)
     "ap-northeast-1", # Asia Pacific (Tokyo)
     "me-south-1" # Middle East (Bahrain)
   ]
@@ -29,7 +28,7 @@ locals {
 
 provider "aws" {
   # region = var.aws_region # region from vars
-  region = random_shuffle.az.result[0] # random APAC region
+  region = random_shuffle.az.result[0] # random asian region
 }
 
 ##################################################################################

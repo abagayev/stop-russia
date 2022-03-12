@@ -28,7 +28,7 @@ do
   # get a random region from the list of all available
   # REGION=$(linode-cli regions list --format 'id' --text --no-header | sort -R | head -n1)
 
-  # get a random APAC region
+  # get a random asian region
   REGION=$(linode-cli regions list --format 'id' --text --no-header | awk '/ap-west|ap-southeast|ap-south|ap-northeast/ {print $0}' | sort -R | head -n1)
 
   linode-cli linodes create \

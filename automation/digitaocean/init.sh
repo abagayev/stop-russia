@@ -18,7 +18,7 @@ do
   # get a random region from the list of all available
   # REGION=$(doctl compute region list --no-header | grep true | awk '{print $1}' | c head -n1)
 
-  # get a random region from the list of APAC regions
+  # get a random region from the list of asian regions
   REGION=$(doctl compute region list --no-header | grep true | awk '/sgp1|blr1/ {print $1}' | sort -R | head -n1)
 
   doctl compute droplet create \

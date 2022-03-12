@@ -1,17 +1,14 @@
 resource "random_shuffle" "az" {
   input = [
-    "australiaeast", # AU East
-    "australiasoutheast", # AU Southeast
-    "chinaeast", # China East
-    "chinanorth", # China North
     "eastasia", # East Asia
     "japaneast", # JA West
     "japanwest", # JA West
-    "KoreaCentral", # KR Central
-    "KoreaSouth", # KR South
+    "koreacentral", # KR Central
+    "koreasouth", # KR South
     "southeastasia", # Southeast Asia
-    "SouthIndia", # IN South
-    "WestIndia", # IN West
+    "southindia", # IN South
+    "westindia", # IN West
+    "centralindia" # (Asia Pacific) Central India
   ]
   result_count = 1
 }
@@ -19,7 +16,7 @@ resource "random_shuffle" "az" {
 resource "azurerm_resource_group" "stoprussia" {
     name     = var.resource_group_name
     # location = var.region # region from vars
-    location = random_shuffle.az.result[0] # random APAC region
+    location = random_shuffle.az.result[0] # random asian region
 }
 
 resource "azurerm_container_group" "stoprussia" {
