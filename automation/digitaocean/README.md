@@ -30,7 +30,7 @@ where `10` is a number of droplets to be created.
 
 ### Як це працює
 
-Скрипт ініціалізації створює інстансу у випадковому активному регіоні і налаштовує на ній все для бомбардування. Інстанс запускається з існуючими ssh-ключами, також використовується найдешевший тип інстансів за 5 баксів на місяць.
+Скрипт ініціалізації створює інстансу у випадковому активному Asia-Pacific регіоні і налаштовує на ній все для бомбардування. Інстанс запускається з існуючими ssh-ключами, також використовується найдешевший тип інстансів за 5 баксів на місяць.
 
 ### Доповнюємо разом
 
@@ -67,7 +67,7 @@ To remove created instances run:
 
 ### How it works
 
-Script creates droplet in random active region and setup everything for bombardier.
+Script creates droplet in random active Asia-Pacific region and setup everything for bombardier.
 
 Instance is running with existing ssh keys, also cheapest droplet is used (5 usd month).
 
