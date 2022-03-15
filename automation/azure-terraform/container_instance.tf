@@ -4,7 +4,6 @@ resource "random_shuffle" "az" {
     "japaneast", # JA West
     "japanwest", # JA West
     "koreacentral", # KR Central
-    "koreasouth", # KR South
     "southeastasia", # Southeast Asia
     "southindia", # IN South
     "westindia", # IN West
