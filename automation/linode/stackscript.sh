@@ -8,5 +8,5 @@ fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /
 NUMPROC=5
 
 for proc in $(seq 1 $NUMPROC); do
-  screen -d -m docker run -ti --cpus=".8" --rm abagayev/stop-russia
+  screen -d -m docker run -ti --cpus=".8" --memory="819m" --rm abagayev/stop-russia
 done
