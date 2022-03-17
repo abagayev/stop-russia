@@ -7,7 +7,7 @@ if [ $1 ]; then  NUMDROPLETS=$1; else NUMDROPLETS=1; fi
 KEYS=$(doctl compute ssh-key list --format=ID --no-header | tr '\n' ',')
 
 # generate random hash for droplet name
-if [[ $OSTYPE == "linux-gnu"* ]]; then
+if [[ $OSTYPE == "linux-gnu"* || $OSTYPE == 'msys' ]]; then
   HASH=$(date | md5sum | awk '{print $1}')
 else
   HASH=$(date | md5)
