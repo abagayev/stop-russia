@@ -25,7 +25,11 @@ SCRIPT_ID=${SCRIPT_RESPONSE_ARRAY[1]}
 for ((c=1; c<=NUMINSTANCES; c++))
 do
   # get a random region from the list of all available
-  REGION=$(vultr-cli regions list | sort -R | head -n1 | cut -c1-3)
+  # REGION=$(vultr-cli regions list | sort -R | head -n1 | cut -c1-3)
+
+  # get a random region from the list of asian regions
+  REGION=$(vultr-cli regions list | awk '/icn|nrt|sgp/ {print $0}' | sort -R | head -n1 | cut -c1-3)
+
   NAME="stop-russia-${REGION}-$(date +%s)"
 
   vultr-cli instance create \

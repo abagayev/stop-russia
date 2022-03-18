@@ -1,4 +1,22 @@
 ##################################################################################
+# ASIAN REGION GENERATOR
+##################################################################################
+
+resource "random_shuffle" "az" {
+  input = [
+    "ap-east-1", # Asia Pacific (Hong Kong)
+    "ap-southeast-3", # Asia Pacific (Jakarta)
+    "ap-south-1", # Asia Pacific (Mumbai)
+    "ap-northeast-3", # Asia Pacific (Osaka)
+    "ap-northeast-2", # Asia Pacific (Seoul)
+    "ap-southeast-1", # Asia Pacific (Singapore)
+    "ap-northeast-1", # Asia Pacific (Tokyo)
+    "me-south-1" # Middle East (Bahrain)
+  ]
+  result_count = 1
+}
+
+##################################################################################
 # PROVIDERS
 ##################################################################################
 
@@ -9,7 +27,8 @@ locals {
 }
 
 provider "aws" {
-  region = var.aws_region
+  # region = var.aws_region # region from vars
+  region = random_shuffle.az.result[0] # random asian region
 }
 
 ##################################################################################

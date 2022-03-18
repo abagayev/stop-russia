@@ -3,7 +3,7 @@ variable "resource_group_name" {
 }
 
 variable "region" {
-  default = "West Europe"
+  default = "eastasia" # default asian region
 }
 
 variable "cpu_spec" {
