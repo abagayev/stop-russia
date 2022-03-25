@@ -1,7 +1,15 @@
 FROM alpine/bombardier:latest
 
+ARG CONNECTIONS
+ARG TIMEOUT
+ARG STRATEGY
+
+ENV CONNECTIONS=${CONNECTIONS}
+ENV TIMEOUT=${TIMEOUT}
+ENV STRATEGY=${STRATEGY}
+
 COPY . /app
 WORKDIR /app
 
-ENTRYPOINT ["sh"]
-CMD ["stop.sh"]
+ENTRYPOINT ["/bin/sh", "-c"]
+CMD ["./stop.sh", "-c", "${CONNECTIONS}", "-t", "${TIMEOUT}", "-s", "${STRATEGY}"]
