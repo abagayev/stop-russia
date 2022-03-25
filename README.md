@@ -19,7 +19,7 @@
 - Після цього запустити одну команду у терміналі:
 
 ```shell
-docker run -ti --rm abagayev/stop-russia
+docker run -ti --cpus=".8" --rm abagayev/stop-russia
 ```
 
 ### Запуск у хмарі
@@ -82,7 +82,7 @@ Progress:
 - Then run one command in the terminal:
 
 ```shell
-docker run -ti --rm abagayev/stop-russia
+docker run -ti --cpus=".8" --rm abagayev/stop-russia
 ```
 
 ### Launch in the cloud
